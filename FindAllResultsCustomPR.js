@@ -38,7 +38,7 @@ if (typeof(SiebelAppFacade.FindAllResultsCustomPR) === "undefined") {
 						ctx: this
 					}, function (i) {
 						k = i.currentTarget.getAttribute("value");
-						var astId = i.currentTarget.text; //SATHISH: ADT:9425: Added to set Profile Attr
+						var astId = i.currentTarget.text;
 						console.log("AssetId:"+astId);
 						SiebelApp.S_App.SetProfileAttr("AssetId",astId);
 						var sId = SiebelApp.S_App.GetProfileAttr("AssetId");
