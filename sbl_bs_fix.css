@@ -1,0 +1,17 @@
+/* below ccss changes are applied only when bootstrap4.min.css is imported before in siebel application. this will fix the layout alignment issues */
+
+
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+
+a {
+    color: #333;
+    text-decoration:none!important;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+	
+}
